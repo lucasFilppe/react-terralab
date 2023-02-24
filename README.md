@@ -2,10 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `o que react?`
 
 É uma bibioteca para criação de interface
@@ -18,6 +14,15 @@ Os componentes são bits de código independentes e reutilizáveis. Eles servem 
 
 Assim como no html, podemos passar propreiedades nas notações de nossos componentes. São valores passados para componentes
 
+### Rederinzar
+
+Ato de um componente ser exibido em tela tela
+
+### Estado
+
+## Available Scripts
+
+In the project directory, you can run:
 
 ### `yarn start`
 
