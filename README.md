@@ -35,6 +35,10 @@ Inicializamos nosso estado chamando useState nosso componente de função. useSt
 
 Serve para lidar com efeitos. é executado em cada renderização. Isso significa que, quando a contagem muda, ocorre uma renderização, que aciona outro efeito. Exemplo de uso [useEffect](https://www.youtube.com/watch?v=jcc9T-5inrk)
 
+### `typescript`
+
+TypeScript mantém uma relação incomum com o JavaScript, ou seja, oferece todos os recursos do JavaScript e uma camada adicional sobre eles: o sistema de tipos TypeScript. Exemplo de uso[typescript](https://www.alura.com.br/artigos/javascript-ou-typescript?gclid=Cj0KCQiA3eGfBhCeARIsACpJNU8rnL_QH_6l4B8JptwpTgltMAbKO-kcWpHjnRKxlNqOXw0RqNLp260aAq5aEALw_wcB)
+
 
 ## Available Scripts
 
