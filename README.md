@@ -14,11 +14,27 @@ Os componentes são bits de código independentes e reutilizáveis. Eles servem 
 
 Assim como no html, podemos passar propreiedades nas notações de nossos componentes. São valores passados para componentes
 
-### Rederinzar
+### `rederinzar`
 
 Ato de um componente ser exibido em tela tela
 
-### Estado
+### `imutabilidade` 
+
+Na programação, é um conceito, onde diz que, uma vez que um dado foi instanciado, ele não pode ter seus estados internos modificados.O operador spread é muito útil quando você deseja fazer uma cópia exata de um array existente, você pode usar o operador spread(...) para fazer isso rapidamente.
+
+### `estado e hooks`
+
+#### useSate
+
+Inicializamos nosso estado chamando useState nosso componente de função. useState aceita um estado inicial e retorna dois valores:
+
+- O estado atual. 
+- Uma função que atualiza o estado. Exemplo de uso [useState](https://www.w3schools.com/react/react_usestate.asp)
+
+#### useEffect
+
+Serve para lidar com efeitos. é executado em cada renderização. Isso significa que, quando a contagem muda, ocorre uma renderização, que aciona outro efeito. Exemplo de uso [useEffect](https://www.youtube.com/watch?v=jcc9T-5inrk)
+
 
 ## Available Scripts
 

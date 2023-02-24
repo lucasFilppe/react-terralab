@@ -1,4 +1,7 @@
 import { RepositoryItem } from "./RepositoryItem";
+import {useState} from 'react';
+
+import '../styles/repositories.scss';
 
 const repository = {
   name: 'javaScript-typescript-2022',
@@ -14,6 +17,7 @@ const repository2 = {
 
 
 export function RepositoryList() {
+  const [repositories, setRepositories] =  useState([])
   
   return (
     <>
