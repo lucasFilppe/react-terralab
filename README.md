@@ -39,6 +39,9 @@ Serve para lidar com efeitos. é executado em cada renderização. Isso signific
 
 TypeScript mantém uma relação incomum com o JavaScript, ou seja, oferece todos os recursos do JavaScript e uma camada adicional sobre eles: o sistema de tipos TypeScript. Exemplo de uso[typescript](https://www.alura.com.br/artigos/javascript-ou-typescript?gclid=Cj0KCQiA3eGfBhCeARIsACpJNU8rnL_QH_6l4B8JptwpTgltMAbKO-kcWpHjnRKxlNqOXw0RqNLp260aAq5aEALw_wcB)
 
+- yarn add typescript -D : instalação
+- yarn tsc --init : iniciará o typescript na aplicação
+- yarn add @types/react-dom -D
 
 ## Available Scripts
 
