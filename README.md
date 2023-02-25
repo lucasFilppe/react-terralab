@@ -43,6 +43,10 @@ TypeScript mantém uma relação incomum com o JavaScript, ou seja, oferece todo
 - yarn tsc --init : iniciará o typescript na aplicação
 - yarn add @types/react-dom -D
 
+### `react dev tools`
+
+Ferramente de extensão do google para debugar aplicações react. Exemplo de uso: [react dev tools](https://www.google.com/search?q=react+developer+tools&client=ubuntu&hs=B6m&source=lnms&tbm=vid&sa=X&ved=2ahUKEwj7pNnlvK_9AhV_Q7gEHa7YBLYQ_AUoAXoECAEQAw&biw=1305&bih=636&dpr=1#fpstate=ive&vld=cid:aea867e6,vid:rb1GWqCJid4)
+
 ## Available Scripts
 
 In the project directory, you can run:
