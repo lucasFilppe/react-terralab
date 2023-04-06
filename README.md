@@ -14,11 +14,38 @@ Os componentes são bits de código independentes e reutilizáveis. Eles servem 
 
 Assim como no html, podemos passar propreiedades nas notações de nossos componentes. São valores passados para componentes
 
-### Rederinzar
+### `rederinzar`
 
 Ato de um componente ser exibido em tela tela
 
-### Estado
+### `imutabilidade` 
+
+Na programação, é um conceito, onde diz que, uma vez que um dado foi instanciado, ele não pode ter seus estados internos modificados.O operador spread é muito útil quando você deseja fazer uma cópia exata de um array existente, você pode usar o operador spread(...) para fazer isso rapidamente.
+
+### `estado e hooks`
+
+#### useSate
+
+Inicializamos nosso estado chamando useState nosso componente de função. useState aceita um estado inicial e retorna dois valores:
+
+- O estado atual. 
+- Uma função que atualiza o estado. Exemplo de uso [useState](https://www.w3schools.com/react/react_usestate.asp)
+
+#### useEffect
+
+Serve para lidar com efeitos. é executado em cada renderização. Isso significa que, quando a contagem muda, ocorre uma renderização, que aciona outro efeito. Exemplo de uso [useEffect](https://www.youtube.com/watch?v=jcc9T-5inrk)
+
+### `typescript`
+
+TypeScript mantém uma relação incomum com o JavaScript, ou seja, oferece todos os recursos do JavaScript e uma camada adicional sobre eles: o sistema de tipos TypeScript. Exemplo de uso[typescript](https://www.alura.com.br/artigos/javascript-ou-typescript?gclid=Cj0KCQiA3eGfBhCeARIsACpJNU8rnL_QH_6l4B8JptwpTgltMAbKO-kcWpHjnRKxlNqOXw0RqNLp260aAq5aEALw_wcB)
+
+- yarn add typescript -D : instalação
+- yarn tsc --init : iniciará o typescript na aplicação
+- yarn add @types/react-dom -D
+
+### `react dev tools`
+
+Ferramente de extensão do google para debugar aplicações react. Exemplo de uso: [react dev tools](https://www.google.com/search?q=react+developer+tools&client=ubuntu&hs=B6m&source=lnms&tbm=vid&sa=X&ved=2ahUKEwj7pNnlvK_9AhV_Q7gEHa7YBLYQ_AUoAXoECAEQAw&biw=1305&bih=636&dpr=1#fpstate=ive&vld=cid:aea867e6,vid:rb1GWqCJid4)
 
 ## Available Scripts
 
@@ -47,44 +74,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
